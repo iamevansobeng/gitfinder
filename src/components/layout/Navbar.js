@@ -14,7 +14,7 @@ export class Navbar extends Component {
     render() {
         return (
             <nav className="navbar bg-primary">
-                <i>{this.props.icon}</i> <h1>{this.props.title}</h1>
+                <h1><i className={this.props.icon} /> {this.props.title}</h1>
             </nav>
         )
     }
