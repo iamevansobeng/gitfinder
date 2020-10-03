@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Alert = ({ alert }) => {
+const Alert = ({ alert }) => {
     return (
         alert !== null && (
             <div alert={`alert alert-${alert.type}`}>
@@ -9,3 +9,5 @@ export const Alert = ({ alert }) => {
         )
     )
 }
+
+export default Alert
