@@ -6,7 +6,8 @@ const Navbar = ({ icon, title }) => {
 
     return (
         <nav className="navbar bg-primary">
-            <h1><i className={icon} /> {title}</h1>
+            <a href="https://gitfinder1.netlify.app"><h1><i className={icon} /> {title}</h1></a>
+
             <ul>
                 <li><Link to='/'>Home</Link></li>
                 <li><Link to='/about'>About</Link></li>
