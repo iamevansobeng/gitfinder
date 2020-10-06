@@ -19,10 +19,6 @@ const Users = () => {
         </div>
     )
 }
-Users.prototype = {
-    users: PropTypes.array.isRequired,
-    loading: PropTypes.bool.isRequired,
-}
 const userStyle = {
     display: 'grid',
     gridTemplateColumns: 'repeat(3,1fr)',

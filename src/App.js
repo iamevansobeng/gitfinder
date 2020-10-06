@@ -54,7 +54,7 @@ const App = () => {
                         <Switch>
                             <Route exact path='/' render={props =>
                                 <>
-                                    <Search clearUsers={clearUsers} showClear={users.length > 0 ? true : false} showAlert={showAlert} />
+                                    <Search showAlert={showAlert} />
                                     <Users />
 
                                 </>} />
