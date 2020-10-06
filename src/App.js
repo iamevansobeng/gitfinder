@@ -55,7 +55,7 @@ const App = () => {
                             <Route exact path='/' render={props =>
                                 <>
                                     <Search clearUsers={clearUsers} showClear={users.length > 0 ? true : false} showAlert={showAlert} />
-                                    <Users loading={loading} users={users} />
+                                    <Users />
 
                                 </>} />
                             <Route exact path='/about' component={About} />
