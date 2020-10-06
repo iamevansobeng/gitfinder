@@ -3,7 +3,7 @@ import axios from 'axios'
 import GithubContext from './githubContext'
 import GithubReducer from './githubReducer'
 
-import { CLEAR_USERS, GET_REPOS, GET_USER, REMOVE_ALERT, SEARCH_USERS, SET_ALERT, SET_LOADING } from '../types'
+import { CLEAR_USERS, GET_REPOS, GET_USER, SEARCH_USERS, SET_LOADING } from '../types'
 
 const GithubState = props => {
     const initialState = {
