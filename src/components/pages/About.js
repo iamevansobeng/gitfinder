@@ -6,6 +6,7 @@ const About = () => {
             <h1>About this App</h1>
             <p>This App searches github users and thier latest repos along with their details</p>
             <p>Version 0.1.0 beta</p>
+            <blockquote>Created by <a href="/" className='btn btn-primary'> <i className="fab fa-github" />Evans Obeng </a></blockquote>
         </>
     )
 }
